@@ -17,10 +17,10 @@
 
 .header-back{
   background-attachment: fixed;
-  min-height: 100px;
+  min-height: 200px;
 }
 
-.header h1{
+.header h1, .header-back h1{
   font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; 
   color: #fff;
   font-size: 68px;
@@ -97,6 +97,11 @@ section{
 
 .events{
   background-color: #c3391d;
+  border-top: 6px solid #ed232a;
+}
+
+.events p{
+  color: #fff;
 }
 
 .call-off{
@@ -117,6 +122,16 @@ section{
   min-width: 250px;
   line-height: 60px;
   background: #3fa757;
+  color: #fff;
+  border: 0;
+}
+
+.btn-call-no{
+  font-size: 20px;
+  min-height: 60px;
+  min-width: 250px;
+  line-height: 60px;
+  background: #c3391d;
   color: #fff;
   border: 0;
 }
